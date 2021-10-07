@@ -1,0 +1,77 @@
+﻿@model AdvertisementAppUserCreateModel
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form class="w-75 mx-auto p-3" asp-action="Send" asp-controller="Advertisement" method="post" enctype="multipart/form-data"> @*//formla çalışıyorsak bu ayarlanmalı*@
+	<input type="hidden" asp-for="@Model.AdvertisementId" /> @*//send işlemi gelirken neye başvuruyorum. Başvurduğıum şey bana gelmesi lazım.Son kullanıcı neye başvuracaksa bilmesi lazım*@
+	<input type="hidden" asp-for="@Model.AppUserId" />
+
+	@if (ViewBag.GenderId == (int)GenderType.Erkek)
+	{
+		<div class="mb-3">
+			<label>Askerlik durumu: </label>
+			<select onchange="setInputVisibility()" asp-for="@Model.MilitaryStatusId" asp-items="@ViewBag.MilitaryStatus" class="form-select">
+				@*//asp-fora setleniyor, itemsta gösterdik*@
+				@*//bu select change olduğunda benim alttaki scriptlerime yazmış olduğum fonksiyonlarım çalışacak !!!!!*@
+
+			</select>
+		</div>
+
+		<div id="dateDiv" class="mb-3" style="display:none">
+			@*gözükmesin javascript yazmak zorundayım. Bu kısım tecilli ise gözükecek.*@
+			<label>Tecil Tarihi: </label>
+			<input type="date" asp-for="@Model.EndDate" class="form-control" />
+		</div>
+	}
+	else
+	{
+      <input type="hidden" asp-for="@Model.MilitaryStatusId" value="@((int)MilitaryStatusType.Muaf)" /> @*eğer kadınsa militarystatustypeı setlemiş oldum*@
+	}
+
+	<div class="mb-3">
+		<label>İş deneyiminiz(yıl olarak): </label>
+		<input type="number"  asp-for="@Model.WorkExperience" class="form-control" />
+	</div>
+
+	<div class="mb-3">
+		<label>Cv:</label>
+		<input type="file"  asp-for="@Model.CvFile" class="form-control" />
+	</div>
+
+	<div class="mb-3">
+		<button type="submit" class="btn btn-primary">Kaydet</button>
+
+
+	</div>
+
+
+	<div asp-validation-summary="All" class="text-danger">
+
+
+	</div>
+
+
+</form>
+
+
+@section script{  @*//selectin change olma durumu =??*@
+
+	<script>
+		setInputVisibility();
+		function setInputVisibility() {
+			var selectElement = document.getElementById("MilitaryStatusId");
+			var militaryStatusId = selectElement.value;
+
+			var dateDivElement = document.getElementById("dateDiv");
+			if (militaryStatusId == 2) {
+				/*console.log("inputu göster");*/
+				dateDivElement.style.display = "block"; //inputu gösterdim
+			}
+			else {
+				dateDivElement.style.display = "none";
+			}
+		}
+	</script>
+
+
+}

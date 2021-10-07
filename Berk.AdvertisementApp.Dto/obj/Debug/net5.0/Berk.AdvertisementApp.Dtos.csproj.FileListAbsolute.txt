@@ -1,0 +1,12 @@
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\bin\Debug\net5.0\Berk.AdvertisementApp.Dtos.deps.json
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\bin\Debug\net5.0\Berk.AdvertisementApp.Dtos.dll
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\bin\Debug\net5.0\ref\Berk.AdvertisementApp.Dtos.dll
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\bin\Debug\net5.0\Berk.AdvertisementApp.Dtos.pdb
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\obj\Debug\net5.0\Berk.AdvertisementApp.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\obj\Debug\net5.0\Berk.AdvertisementApp.Dtos.AssemblyInfoInputs.cache
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\obj\Debug\net5.0\Berk.AdvertisementApp.Dtos.AssemblyInfo.cs
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\obj\Debug\net5.0\Berk.AdvertisementApp.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\obj\Debug\net5.0\Berk.AdvertisementApp.Dtos.dll
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\obj\Debug\net5.0\ref\Berk.AdvertisementApp.Dtos.dll
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\obj\Debug\net5.0\Berk.AdvertisementApp.Dtos.pdb
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Dto\obj\Debug\net5.0\Berk.AdvertisementApp.Dtos.csproj.AssemblyReference.cache

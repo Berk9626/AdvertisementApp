@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berk.Advertisement.Common", "Berk.Advertisement.Common\Berk.Advertisement.Common.csproj", "{0482FAE3-0263-457F-AB80-F40C4F9E2F3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berk.AdvertisementApp.Entities", "Berk.AdvertisementApp.Entities\Berk.AdvertisementApp.Entities.csproj", "{F71D89ED-4060-4967-81A2-46739B1D0606}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berk.AdvertisementApp.DataAccess", "Berk.AdvertisementApp.DataAccess\Berk.AdvertisementApp.DataAccess.csproj", "{AF7A8D2D-AE5F-4C63-8BE8-2863827A5B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berk.AdvertisementApp.Business", "Berk.AdvertisementApp.Business\Berk.AdvertisementApp.Business.csproj", "{BC192722-B854-4578-8939-009A8CDEFB3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berk.AdvertisementApp.UI", "Berk.AdvertisementApp.UI\Berk.AdvertisementApp.UI.csproj", "{E6EEE745-474C-4850-9E94-2204D28D7A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Berk.AdvertisementApp.Dtos", "Berk.AdvertisementApp.Dto\Berk.AdvertisementApp.Dtos.csproj", "{2BB6E332-B24F-4355-87A6-3C3B0A542B19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0482FAE3-0263-457F-AB80-F40C4F9E2F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0482FAE3-0263-457F-AB80-F40C4F9E2F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0482FAE3-0263-457F-AB80-F40C4F9E2F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0482FAE3-0263-457F-AB80-F40C4F9E2F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71D89ED-4060-4967-81A2-46739B1D0606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71D89ED-4060-4967-81A2-46739B1D0606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71D89ED-4060-4967-81A2-46739B1D0606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71D89ED-4060-4967-81A2-46739B1D0606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7A8D2D-AE5F-4C63-8BE8-2863827A5B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7A8D2D-AE5F-4C63-8BE8-2863827A5B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7A8D2D-AE5F-4C63-8BE8-2863827A5B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7A8D2D-AE5F-4C63-8BE8-2863827A5B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC192722-B854-4578-8939-009A8CDEFB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC192722-B854-4578-8939-009A8CDEFB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC192722-B854-4578-8939-009A8CDEFB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC192722-B854-4578-8939-009A8CDEFB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6EEE745-474C-4850-9E94-2204D28D7A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EEE745-474C-4850-9E94-2204D28D7A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EEE745-474C-4850-9E94-2204D28D7A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EEE745-474C-4850-9E94-2204D28D7A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB6E332-B24F-4355-87A6-3C3B0A542B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB6E332-B24F-4355-87A6-3C3B0A542B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB6E332-B24F-4355-87A6-3C3B0A542B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB6E332-B24F-4355-87A6-3C3B0A542B19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33C586FA-4688-4F25-81A5-34A1B1AE5D2C}
+	EndGlobalSection
+EndGlobal

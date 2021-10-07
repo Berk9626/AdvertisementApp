@@ -1,0 +1,11 @@
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\bin\Debug\net5.0\Berk.AdvertisementApp.Entities.deps.json
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\bin\Debug\net5.0\Berk.AdvertisementApp.Entities.dll
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\bin\Debug\net5.0\ref\Berk.AdvertisementApp.Entities.dll
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\bin\Debug\net5.0\Berk.AdvertisementApp.Entities.pdb
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\obj\Debug\net5.0\Berk.AdvertisementApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\obj\Debug\net5.0\Berk.AdvertisementApp.Entities.AssemblyInfoInputs.cache
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\obj\Debug\net5.0\Berk.AdvertisementApp.Entities.AssemblyInfo.cs
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\obj\Debug\net5.0\Berk.AdvertisementApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\obj\Debug\net5.0\Berk.AdvertisementApp.Entities.dll
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\obj\Debug\net5.0\ref\Berk.AdvertisementApp.Entities.dll
+C:\Users\berkb\source\repos\Berk.AdvertisementApp\Berk.AdvertisementApp.Entities\obj\Debug\net5.0\Berk.AdvertisementApp.Entities.pdb
